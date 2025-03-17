@@ -128,5 +128,7 @@ export const isSeasonFinalized = (season: ISeason) => {
     ? season.games.length === 15
     : season.id === 5
     ? season.games.length === 12
+    : season.id === 6
+    ? season.games.length === 20
     : season.games.length === 10;
 };
