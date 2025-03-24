@@ -611,6 +611,16 @@
           {"playerId": 4, "count": 1},
           {"playerId": 8, "count": 3}
         ]
+      },
+      {
+        "id": 11,
+        "description": "Game 11",
+        "standings": [8, 2, 12, 4, 15, 17, 16, 1, 6],
+        "kos": [
+          {"playerId": 4, "count": 3},
+          {"playerId": 16, "count": 1},
+          {"playerId": 8, "count": 4}
+        ]
       }
     ]
   }
