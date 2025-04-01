@@ -1,627 +1,613 @@
 [
-  {
-    "id": 1,
-    "description": "Season 1",
-    "type": 1,
-    "lastGame": 10,
-    "lastGameMultiplier": 2,
-    "pointsByPosition": 1,
-    "bestGames": 10,
-    "games": [
-      {
-        "id": 1,
-        "description": "Game 1",
-        "standings": [3, 2, 1, 5, 6, 7, 8, 13, 9, 4]
-      },
-      {
-        "id": 2,
-        "description": "Game 2",
-        "standings": [2, 5, 7, 9, 1, 4, 3, 6]
-      },
-      {
-        "id": 3,
-        "description": "Game 3",
-        "standings": [4, 6, 1, 7, 2, 10, 5]
-      },
-      {
-        "id": 4,
-        "description": "Game 4",
-        "standings": [7, 10, 4, 1, 6, 9, 8, 2]
-      },
-      {
-        "id": 5,
-        "description": "Game 5",
-        "standings": [8, 1, 7, 12, 11, 4, 5]
-      },
-      {
-        "id": 6,
-        "description": "Game 6",
-        "standings": [7, 1, 6, 4, 8, 12, 2]
-      },
-      {
-        "id": 7,
-        "description": "Game 7",
-        "standings": [10, 4, 2, 7, 6, 5, 1, 12, 8]
-      },
-      {
-        "id": 8,
-        "description": "Game 8",
-        "standings": [2, 8, 7, 4, 1, 11]
-      },
-      {
-        "id": 9,
-        "description": "Game 9",
-        "standings": [12, 8, 10, 11, 6, 5, 2, 4, 7, 1]
-      },
-      {
-        "id": 10,
-        "description": "Game 10",
-        "standings": [2, 7, 12, 1, 10, 6]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "description": "Season 2",
-    "type": 2,
-    "lastGame": 10,
-    "lastGameMultiplier": 1,
-    "pointsByPosition": 2,
-    "bestGames": 8,
-    "games": [
-      {
-        "id": 1,
-        "description": "Game 1",
-        "standings": [3, 2, 7, 12, 4, 8, 11, 6, 1, 5]
-      },
-      {
-        "id": 2,
-        "description": "Game 2",
-        "standings": [7, 9, 4, 1, 8, 2, 6, 10, 12, 5, 11, 3]
-      },
-      {
-        "id": 3,
-        "description": "Game 3",
-        "standings": [12, 2, 8, 1, 4, 7, 9, 6, 3]
-      },
-      {
-        "id": 4,
-        "description": "Game 4",
-        "standings": [1, 7, 2, 12, 8]
-      },
-      {
-        "id": 5,
-        "description": "Game 5",
-        "standings": [1, 2, 4, 12, 14, 5]
-      },
-      {
-        "id": 6,
-        "description": "Game 6",
-        "standings": [1, 8, 14, 12, 7, 2, 4]
-      },
-      {
-        "id": 7,
-        "description": "Game 7",
-        "standings": [8, 6, 7, 4, 2, 1, 12, 5]
-      },
-      {
-        "id": 8,
-        "description": "Game 8",
-        "standings": [1, 6, 12, 7, 2, 8]
-      },
-      {
-        "id": 9,
-        "description": "Game 9",
-        "standings": [1, 2, 7, 6, 12, 8, 5]
-      },
-      {
-        "id": 10,
-        "description": "Game 10",
-        "standings": [1, 14, 2, 5, 8, 6, 3, 7, 12]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "description": "Season 3",
-    "type": 2,
-    "lastGame": 10,
-    "lastGameMultiplier": 1,
-    "pointsByPosition": 2,
-    "bestGames": 8,
-    "games": [
-      {
-        "id": 1,
-        "description": "Game 1",
-        "standings": [2, 6, 1, 14, 7, 8, 5, 12]
-      },
-      {
-        "id": 2,
-        "description": "Game 2",
-        "standings": [6, 2, 7, 1, 8, 12, 14, 5]
-      },
-      {
-        "id": 3,
-        "description": "Game 3",
-        "standings": [1, 6, 2, 8, 7, 4, 12]
-      },
-      {
-        "id": 4,
-        "description": "Game 4",
-        "standings": [2, 12, 14, 6, 5, 8, 4, 1]
-      },
-      {
-        "id": 5,
-        "description": "Game 5",
-        "standings": [8, 2, 6, 12, 14, 4, 7]
-      },
-      {
-        "id": 6,
-        "description": "Game 6",
-        "standings": [7, 12, 14, 4, 2, 8, 5, 1]
-      },
-      {
-        "id": 7,
-        "description": "Game 7",
-        "standings": [7, 12, 5, 8, 1, 2, 4]
-      },
-      {
-        "id": 8,
-        "description": "Game 8",
-        "standings": [8, 2, 14, 5, 7, 12, 10, 1]
-      },
-      {
-        "id": 9,
-        "description": "Game 9",
-        "standings": [10, 4, 1, 2, 7, 6, 5, 8, 14, 12]
-      },
-      {
-        "id": 10,
-        "description": "Game 10",
-        "standings": [1, 8, 10, 7, 12, 2]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "description": "Season 4",
-    "type": 3,
-    "lastGame": 15,
-    "lastGameMultiplier": 2,
-    "pointsByPosition": 2,
-    "bestGames": 12,
-    "handicaps": [
-      {"playerId": 2, "points": -15},
-      {"playerId": 7, "points": -10},
-      {"playerId": 8, "points": -5},
-      {"playerId": 10, "points": 15},
-      {"playerId": 4, "points": 10},
-      {"playerId": 5, "points": 5}
-    ],
-    "games": [
-      {
-        "id": 1,
-        "description": "Game 1",
-        "standings": [10, 5, 2, 8, 3, 1, 4, 6, 12],
-        "kos": [
-          {"playerId": 10, "count": 4},
-          {"playerId": 3, "count": 3},
-          {"playerId": 5, "count": 1}
-        ]
-      },
-      {
-        "id": 2,
-        "description": "Game 2",
-        "standings": [3, 1, 14, 4, 2, 8, 5],
-        "kos": [
-          {"playerId": 3, "count": 5},
-          {"playerId": 14, "count": 1}
-        ]
-      },
-      {
-        "id": 3,
-        "description": "Game 3",
-        "standings": [4, 12, 5, 6, 3, 8, 2, 1, 14],
-        "kos": [
-          {"playerId": 6, "count": 1},
-          {"playerId": 4, "count": 7}
-        ]
-      },
-      {
-        "id": 4,
-        "description": "Game 4",
-        "standings": [10, 2, 1, 8, 4, 12, 5, 6],
-        "kos": [
-          {"playerId": 12, "count": 1},
-          {"playerId": 1, "count": 1},
-          {"playerId": 2, "count": 3},
-          {"playerId": 8, "count": 1},
-          {"playerId": 10, "count": 1}
-        ]
-      },
-      {
-        "id": 5,
-        "description": "Game 5",
-        "standings": [6, 4, 10, 14, 5, 8, 2],
-        "kos": [
-          {"playerId": 6, "count": 4},
-          {"playerId": 10, "count": 2}
-        ]
-      },
-      {
-        "id": 6,
-        "description": "Game 6",
-        "standings": [10, 2, 12, 1, 8, 4],
-        "kos": [
-          {"playerId": 10, "count": 3},
-          {"playerId": 12, "count": 1},
-          {"playerId": 2, "count": 1}
-        ]
-      },
-      {
-        "id": 7,
-        "description": "Game 7",
-        "standings": [8, 3, 5, 2, 14, 12, 6, 1, 10, 4],
-        "kos": [
-          {"playerId": 8, "count": 3},
-          {"playerId": 5, "count": 3},
-          {"playerId": 3, "count": 3}
-        ]
-      },
-      {
-        "id": 8,
-        "description": "Game 8",
-        "standings": [1, 2, 5, 12, 8, 4],
-        "kos": [
-          {"playerId": 5, "count": 1},
-          {"playerId": 2, "count": 2},
-          {"playerId": 1, "count": 2}
-        ]
-      },
-      {
-        "id": 9,
-        "description": "Game 9",
-        "standings": [2, 12, 5, 1, 4, 8, 6],
-        "kos": [
-          {"playerId": 2, "count": 3},
-          {"playerId": 12, "count": 1},
-          {"playerId": 1, "count": 1},
-          {"playerId": 5, "count": 1}
-        ]
-      },
-      {
-        "id": 10,
-        "description": "Game 10",
-        "standings": [1, 12, 2, 16, 15, 8, 3, 5, 6, 4],
-        "kos": [
-          {"playerId": 2, "count": 1},
-          {"playerId": 15, "count": 1},
-          {"playerId": 1, "count": 4},
-          {"playerId": 16, "count": 2},
-          {"playerId": 12, "count": 1}
-        ]
-      },
-      {
-        "id": 11,
-        "description": "Game 11",
-        "standings": [4, 6, 12, 2, 3, 16, 1, 15, 5],
-        "kos": [
-          {"playerId": 6, "count": 3},
-          {"playerId": 3, "count": 3},
-          {"playerId": 4, "count": 2}
-        ]
-      },
-      {
-        "id": 12,
-        "description": "Game 12",
-        "standings": [6, 2, 1, 10, 12, 4, 16, 15, 3, 5],
-        "kos": [
-          {"playerId": 3, "count": 1},
-          {"playerId": 1, "count": 1},
-          {"playerId": 6, "count": 4},
-          {"playerId": 4, "count": 1},
-          {"playerId": 2, "count": 2}
-        ]
-      },
-      {
-        "id": 13,
-        "description": "Game 13",
-        "standings": [6, 12, 2, 1, 15, 16],
-        "kos": [
-          {"playerId": 6, "count": 4},
-          {"playerId": 12, "count": 1}
-        ]
-      },
-      {
-        "id": 14,
-        "description": "Game 14",
-        "standings": [6, 12, 1, 4, 10, 2],
-        "kos": [
-          {"playerId": 1, "count": 1},
-          {"playerId": 4, "count": 1},
-          {"playerId": 6, "count": 3}
-        ]
-      },
-      {
-        "id": 15,
-        "description": "Game 15",
-        "standings": [14, 2, 1, 16, 6, 12, 4, 15],
-        "kos": [
-          {"playerId": 12, "count": 1},
-          {"playerId": 14, "count": 3},
-          {"playerId": 16, "count": 1},
-          {"playerId": 1, "count": 1},
-          {"playerId": 2, "count": 1}
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "description": "Season 5",
-    "type": 4,
-    "lastGame": 12,
-    "lastGameMultiplier": 1.5,
-    "pointsByPosition": 2,
-    "bestGames": 10,
-    "handicaps": [
-      {"playerId": 2, "points": -30},
-      {"playerId": 1, "points": -20},
-      {"playerId": 6, "points": -10},
-      {"playerId": 15, "points": 30},
-      {"playerId": 16, "points": 20},
-      {"playerId": 8, "points": 10}
-    ],
-    "games": [
-      {
-        "id": 1,
-        "description": "Game 1",
-        "standings": [6, 14, 3, 4, 12, 2, 1],
-        "kos": [
-          {"playerId": 6, "count": 4},
-          {"playerId": 14, "count": 1},
-          {"playerId": 3, "count": 2}
-        ]
-      },
-      {
-        "id": 2,
-        "description": "Game 2",
-        "standings": [4, 12, 14, 2, 16, 5, 1],
-        "kos": [
-          {"playerId": 14, "count": 3},
-          {"playerId": 12, "count": 1},
-          {"playerId": 4, "count": 2}
-        ]
-      },
-      {
-        "id": 3,
-        "description": "Game 3",
-        "standings": [5, 1, 15, 12, 2, 16, 4, 6],
-        "kos": [
-          {"playerId": 2, "count": 1},
-          {"playerId": 5, "count": 5},
-          {"playerId": 12, "count": 1},
-          {"playerId": 1, "count": 1}
-        ]
-      },
-      {
-        "id": 4,
-        "description": "Game 4",
-        "standings": [1, 12, 16, 5, 6, 4, 2],
-        "kos": [
-          {"playerId": 6, "count": 2},
-          {"playerId": 1, "count": 4}
-        ]
-      },
-      {
-        "id": 5,
-        "description": "Game 5",
-        "standings": [2, 1, 14, 12, 4, 16],
-        "kos": [
-          {"playerId": 4, "count": 1},
-          {"playerId": 1, "count": 1},
-          {"playerId": 2, "count": 3}
-        ]
-      },
-      {
-        "id": 6,
-        "description": "Game 6",
-        "standings": [6, 15, 10, 16, 14, 12, 1, 4, 5, 2],
-        "kos": [
-          {"playerId": 12, "count": 1},
-          {"playerId": 10, "count": 1},
-          {"playerId": 16, "count": 1},
-          {"playerId": 15, "count": 4},
-          {"playerId": 6, "count": 2}
-        ]
-      },
-      {
-        "id": 7,
-        "description": "Game 7",
-        "standings": [5, 2, 16, 12, 3, 4, 6, 15],
-        "kos": [
-          {"playerId": 5, "count": 4},
-          {"playerId": 16, "count": 3}
-        ]
-      },
-      {
-        "id": 8,
-        "description": "Game 8",
-        "standings": [1, 12, 5, 14, 16, 2, 6],
-        "kos": [
-          {"playerId": 5, "count": 4},
-          {"playerId": 1, "count": 2}
-        ]
-      },
-      {
-        "id": 9,
-        "description": "Game 9",
-        "standings": [6, 3, 12, 1, 2, 16, 5],
-        "kos": [
-          {"playerId": 1, "count": 1},
-          {"playerId": 3, "count": 2},
-          {"playerId": 6, "count": 3}
-        ]
-      },
-      {
-        "id": 10,
-        "description": "Game 10",
-        "standings": [6, 1, 16, 10, 2, 12, 4, 5],
-        "kos": [
-          {"playerId": 4, "count": 1},
-          {"playerId": 10, "count": 2},
-          {"playerId": 16, "count": 1},
-          {"playerId": 6, "count": 2},
-          {"playerId": 1, "count": 1}
-        ]
-      },
-      {
-        "id": 11,
-        "description": "Game 11",
-        "standings": [4, 12, 2, 1, 16, 5],
-        "kos": [
-          {"playerId": 1, "count": 2},
-          {"playerId": 4, "count": 2},
-          {"playerId": 12, "count": 1}
-        ]
-      },
-      {
-        "id": 12,
-        "description": "Game 12",
-        "standings": [2, 1, 12, 16, 6, 5],
-        "kos": [
-          {"playerId": 12, "count": 2},
-          {"playerId": 2, "count": 2},
-          {"playerId": 1, "count": 1}
-        ]
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "description": "Season 6",
-    "type": 5,
-    "lastGame": 20,
-    "lastGameMultiplier": 1.5,
-    "pointsByPosition": 3,
-    "bestGames": 15,
-    "games": [
-      {
-        "id": 1,
-        "description": "Game 1",
-        "standings": [1, 15, 2, 6, 8, 4, 5, 16],
-        "kos": [
-          {"playerId": 4, "count": 1},
-          {"playerId": 1, "count": 6}
-        ]
-      },
-      {
-        "id": 2,
-        "description": "Game 2",
-        "standings": [14, 1, 12, 15, 8, 2, 5, 16],
-        "kos": [
-          {"playerId": 14, "count": 3},
-          {"playerId": 15, "count": 3},
-          {"playerId": 1, "count": 1}
-        ]
-      },
-      {
-        "id": 3,
-        "description": "Game 3",
-        "standings": [2, 12, 15, 16, 1, 8, 5, 14, 6, 4],
-        "kos": [
-          {"playerId": 5, "count": 1},
-          {"playerId": 12, "count": 3},
-          {"playerId": 8, "count": 1},
-          {"playerId": 16, "count": 1},
-          {"playerId": 2, "count": 3}
-        ]
-      },
-      {
-        "id": 4,
-        "description": "Game 4",
-        "standings": [2, 1, 15, 16, 12, 6, 10, 8, 4],
-        "kos": [
-          {"playerId": 15, "count": 2},
-          {"playerId": 12, "count": 1},
-          {"playerId": 16, "count": 2},
-          {"playerId": 1, "count": 1},
-          {"playerId": 2, "count": 2}
-        ]
-      },
-      {
-        "id": 5,
-        "description": "Game 5",
-        "standings": [6, 12, 1, 14, 8, 5, 16, 15],
-        "kos": [
-          {"playerId": 6, "count": 4},
-          {"playerId": 8, "count": 1},
-          {"playerId": 12, "count": 2}
-        ]
-      },
-      {
-        "id": 6,
-        "description": "Game 6",
-        "standings": [16, 14, 12, 2, 15, 8, 1],
-        "kos": [
-          {"playerId": 2, "count": 1},
-          {"playerId": 14, "count": 2},
-          {"playerId": 16, "count": 3}
-        ]
-      },
-      {
-        "id": 7,
-        "description": "Game 7",
-        "standings": [8, 2, 6, 12, 1, 15, 16, 14],
-        "kos": [
-          {"playerId": 1, "count": 1},
-          {"playerId": 12, "count": 2},
-          {"playerId": 6, "count": 2},
-          {"playerId": 8, "count": 2}
-        ]
-      },
-      {
-        "id": 8,
-        "description": "Game 8",
-        "standings": [1, 2, 14, 15, 16, 8, 6, 5, 4],
-        "kos": [
-          {"playerId": 8, "count": 2},
-          {"playerId": 1, "count": 4},
-          {"playerId": 2, "count": 1},
-          {"playerId": 14, "count": 1}
-        ]
-      },
-      {
-        "id": 9,
-        "description": "Game 9",
-        "standings": [12, 1, 5, 2, 16, 14, 6, 8, 15],
-        "kos": [
-          {"playerId": 1, "count": 3},
-          {"playerId": 5, "count": 3},
-          {"playerId": 12, "count": 2}
-        ]
-      },
-      {
-        "id": 10,
-        "description": "Game 10",
-        "standings": [8, 15, 2, 4, 12, 1, 6, 16],
-        "kos": [
-          {"playerId": 15, "count": 2},
-          {"playerId": 1, "count": 1},
-          {"playerId": 4, "count": 1},
-          {"playerId": 8, "count": 3}
-        ]
-      },
-      {
-        "id": 11,
-        "description": "Game 11",
-        "standings": [8, 2, 12, 4, 15, 17, 16, 1, 6],
-        "kos": [
-          {"playerId": 4, "count": 3},
-          {"playerId": 16, "count": 1},
-          {"playerId": 8, "count": 4}
-        ]
-      }
-    ]
-  }
+	{
+		"id": 1,
+		"description": "Season 1",
+		"type": 1,
+		"lastGame": 10,
+		"lastGameMultiplier": 2,
+		"pointsByPosition": 1,
+		"bestGames": 10,
+		"games": [
+			{
+				"id": 1,
+				"description": "Game 1",
+				"standings": [3, 2, 1, 5, 6, 7, 8, 13, 9, 4]
+			},
+			{
+				"id": 2,
+				"description": "Game 2",
+				"standings": [2, 5, 7, 9, 1, 4, 3, 6]
+			},
+			{
+				"id": 3,
+				"description": "Game 3",
+				"standings": [4, 6, 1, 7, 2, 10, 5]
+			},
+			{
+				"id": 4,
+				"description": "Game 4",
+				"standings": [7, 10, 4, 1, 6, 9, 8, 2]
+			},
+			{
+				"id": 5,
+				"description": "Game 5",
+				"standings": [8, 1, 7, 12, 11, 4, 5]
+			},
+			{
+				"id": 6,
+				"description": "Game 6",
+				"standings": [7, 1, 6, 4, 8, 12, 2]
+			},
+			{
+				"id": 7,
+				"description": "Game 7",
+				"standings": [10, 4, 2, 7, 6, 5, 1, 12, 8]
+			},
+			{
+				"id": 8,
+				"description": "Game 8",
+				"standings": [2, 8, 7, 4, 1, 11]
+			},
+			{
+				"id": 9,
+				"description": "Game 9",
+				"standings": [12, 8, 10, 11, 6, 5, 2, 4, 7, 1]
+			},
+			{
+				"id": 10,
+				"description": "Game 10",
+				"standings": [2, 7, 12, 1, 10, 6]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"description": "Season 2",
+		"type": 2,
+		"lastGame": 10,
+		"lastGameMultiplier": 1,
+		"pointsByPosition": 2,
+		"bestGames": 8,
+		"games": [
+			{
+				"id": 1,
+				"description": "Game 1",
+				"standings": [3, 2, 7, 12, 4, 8, 11, 6, 1, 5]
+			},
+			{
+				"id": 2,
+				"description": "Game 2",
+				"standings": [7, 9, 4, 1, 8, 2, 6, 10, 12, 5, 11, 3]
+			},
+			{
+				"id": 3,
+				"description": "Game 3",
+				"standings": [12, 2, 8, 1, 4, 7, 9, 6, 3]
+			},
+			{
+				"id": 4,
+				"description": "Game 4",
+				"standings": [1, 7, 2, 12, 8]
+			},
+			{
+				"id": 5,
+				"description": "Game 5",
+				"standings": [1, 2, 4, 12, 14, 5]
+			},
+			{
+				"id": 6,
+				"description": "Game 6",
+				"standings": [1, 8, 14, 12, 7, 2, 4]
+			},
+			{
+				"id": 7,
+				"description": "Game 7",
+				"standings": [8, 6, 7, 4, 2, 1, 12, 5]
+			},
+			{
+				"id": 8,
+				"description": "Game 8",
+				"standings": [1, 6, 12, 7, 2, 8]
+			},
+			{
+				"id": 9,
+				"description": "Game 9",
+				"standings": [1, 2, 7, 6, 12, 8, 5]
+			},
+			{
+				"id": 10,
+				"description": "Game 10",
+				"standings": [1, 14, 2, 5, 8, 6, 3, 7, 12]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"description": "Season 3",
+		"type": 2,
+		"lastGame": 10,
+		"lastGameMultiplier": 1,
+		"pointsByPosition": 2,
+		"bestGames": 8,
+		"games": [
+			{
+				"id": 1,
+				"description": "Game 1",
+				"standings": [2, 6, 1, 14, 7, 8, 5, 12]
+			},
+			{
+				"id": 2,
+				"description": "Game 2",
+				"standings": [6, 2, 7, 1, 8, 12, 14, 5]
+			},
+			{
+				"id": 3,
+				"description": "Game 3",
+				"standings": [1, 6, 2, 8, 7, 4, 12]
+			},
+			{
+				"id": 4,
+				"description": "Game 4",
+				"standings": [2, 12, 14, 6, 5, 8, 4, 1]
+			},
+			{
+				"id": 5,
+				"description": "Game 5",
+				"standings": [8, 2, 6, 12, 14, 4, 7]
+			},
+			{
+				"id": 6,
+				"description": "Game 6",
+				"standings": [7, 12, 14, 4, 2, 8, 5, 1]
+			},
+			{
+				"id": 7,
+				"description": "Game 7",
+				"standings": [7, 12, 5, 8, 1, 2, 4]
+			},
+			{
+				"id": 8,
+				"description": "Game 8",
+				"standings": [8, 2, 14, 5, 7, 12, 10, 1]
+			},
+			{
+				"id": 9,
+				"description": "Game 9",
+				"standings": [10, 4, 1, 2, 7, 6, 5, 8, 14, 12]
+			},
+			{
+				"id": 10,
+				"description": "Game 10",
+				"standings": [1, 8, 10, 7, 12, 2]
+			}
+		]
+	},
+	{
+		"id": 4,
+		"description": "Season 4",
+		"type": 3,
+		"lastGame": 15,
+		"lastGameMultiplier": 2,
+		"pointsByPosition": 2,
+		"bestGames": 12,
+		"handicaps": [
+			{ "playerId": 2, "points": -15 },
+			{ "playerId": 7, "points": -10 },
+			{ "playerId": 8, "points": -5 },
+			{ "playerId": 10, "points": 15 },
+			{ "playerId": 4, "points": 10 },
+			{ "playerId": 5, "points": 5 }
+		],
+		"games": [
+			{
+				"id": 1,
+				"description": "Game 1",
+				"standings": [10, 5, 2, 8, 3, 1, 4, 6, 12],
+				"kos": [
+					{ "playerId": 10, "count": 4 },
+					{ "playerId": 3, "count": 3 },
+					{ "playerId": 5, "count": 1 }
+				]
+			},
+			{
+				"id": 2,
+				"description": "Game 2",
+				"standings": [3, 1, 14, 4, 2, 8, 5],
+				"kos": [{ "playerId": 3, "count": 5 }, { "playerId": 14, "count": 1 }]
+			},
+			{
+				"id": 3,
+				"description": "Game 3",
+				"standings": [4, 12, 5, 6, 3, 8, 2, 1, 14],
+				"kos": [{ "playerId": 6, "count": 1 }, { "playerId": 4, "count": 7 }]
+			},
+			{
+				"id": 4,
+				"description": "Game 4",
+				"standings": [10, 2, 1, 8, 4, 12, 5, 6],
+				"kos": [
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 2, "count": 3 },
+					{ "playerId": 8, "count": 1 },
+					{ "playerId": 10, "count": 1 }
+				]
+			},
+			{
+				"id": 5,
+				"description": "Game 5",
+				"standings": [6, 4, 10, 14, 5, 8, 2],
+				"kos": [{ "playerId": 6, "count": 4 }, { "playerId": 10, "count": 2 }]
+			},
+			{
+				"id": 6,
+				"description": "Game 6",
+				"standings": [10, 2, 12, 1, 8, 4],
+				"kos": [
+					{ "playerId": 10, "count": 3 },
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 2, "count": 1 }
+				]
+			},
+			{
+				"id": 7,
+				"description": "Game 7",
+				"standings": [8, 3, 5, 2, 14, 12, 6, 1, 10, 4],
+				"kos": [
+					{ "playerId": 8, "count": 3 },
+					{ "playerId": 5, "count": 3 },
+					{ "playerId": 3, "count": 3 }
+				]
+			},
+			{
+				"id": 8,
+				"description": "Game 8",
+				"standings": [1, 2, 5, 12, 8, 4],
+				"kos": [
+					{ "playerId": 5, "count": 1 },
+					{ "playerId": 2, "count": 2 },
+					{ "playerId": 1, "count": 2 }
+				]
+			},
+			{
+				"id": 9,
+				"description": "Game 9",
+				"standings": [2, 12, 5, 1, 4, 8, 6],
+				"kos": [
+					{ "playerId": 2, "count": 3 },
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 5, "count": 1 }
+				]
+			},
+			{
+				"id": 10,
+				"description": "Game 10",
+				"standings": [1, 12, 2, 16, 15, 8, 3, 5, 6, 4],
+				"kos": [
+					{ "playerId": 2, "count": 1 },
+					{ "playerId": 15, "count": 1 },
+					{ "playerId": 1, "count": 4 },
+					{ "playerId": 16, "count": 2 },
+					{ "playerId": 12, "count": 1 }
+				]
+			},
+			{
+				"id": 11,
+				"description": "Game 11",
+				"standings": [4, 6, 12, 2, 3, 16, 1, 15, 5],
+				"kos": [
+					{ "playerId": 6, "count": 3 },
+					{ "playerId": 3, "count": 3 },
+					{ "playerId": 4, "count": 2 }
+				]
+			},
+			{
+				"id": 12,
+				"description": "Game 12",
+				"standings": [6, 2, 1, 10, 12, 4, 16, 15, 3, 5],
+				"kos": [
+					{ "playerId": 3, "count": 1 },
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 6, "count": 4 },
+					{ "playerId": 4, "count": 1 },
+					{ "playerId": 2, "count": 2 }
+				]
+			},
+			{
+				"id": 13,
+				"description": "Game 13",
+				"standings": [6, 12, 2, 1, 15, 16],
+				"kos": [{ "playerId": 6, "count": 4 }, { "playerId": 12, "count": 1 }]
+			},
+			{
+				"id": 14,
+				"description": "Game 14",
+				"standings": [6, 12, 1, 4, 10, 2],
+				"kos": [
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 4, "count": 1 },
+					{ "playerId": 6, "count": 3 }
+				]
+			},
+			{
+				"id": 15,
+				"description": "Game 15",
+				"standings": [14, 2, 1, 16, 6, 12, 4, 15],
+				"kos": [
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 14, "count": 3 },
+					{ "playerId": 16, "count": 1 },
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 2, "count": 1 }
+				]
+			}
+		]
+	},
+	{
+		"id": 5,
+		"description": "Season 5",
+		"type": 4,
+		"lastGame": 12,
+		"lastGameMultiplier": 1.5,
+		"pointsByPosition": 2,
+		"bestGames": 10,
+		"handicaps": [
+			{ "playerId": 2, "points": -30 },
+			{ "playerId": 1, "points": -20 },
+			{ "playerId": 6, "points": -10 },
+			{ "playerId": 15, "points": 30 },
+			{ "playerId": 16, "points": 20 },
+			{ "playerId": 8, "points": 10 }
+		],
+		"games": [
+			{
+				"id": 1,
+				"description": "Game 1",
+				"standings": [6, 14, 3, 4, 12, 2, 1],
+				"kos": [
+					{ "playerId": 6, "count": 4 },
+					{ "playerId": 14, "count": 1 },
+					{ "playerId": 3, "count": 2 }
+				]
+			},
+			{
+				"id": 2,
+				"description": "Game 2",
+				"standings": [4, 12, 14, 2, 16, 5, 1],
+				"kos": [
+					{ "playerId": 14, "count": 3 },
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 4, "count": 2 }
+				]
+			},
+			{
+				"id": 3,
+				"description": "Game 3",
+				"standings": [5, 1, 15, 12, 2, 16, 4, 6],
+				"kos": [
+					{ "playerId": 2, "count": 1 },
+					{ "playerId": 5, "count": 5 },
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 1, "count": 1 }
+				]
+			},
+			{
+				"id": 4,
+				"description": "Game 4",
+				"standings": [1, 12, 16, 5, 6, 4, 2],
+				"kos": [{ "playerId": 6, "count": 2 }, { "playerId": 1, "count": 4 }]
+			},
+			{
+				"id": 5,
+				"description": "Game 5",
+				"standings": [2, 1, 14, 12, 4, 16],
+				"kos": [
+					{ "playerId": 4, "count": 1 },
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 2, "count": 3 }
+				]
+			},
+			{
+				"id": 6,
+				"description": "Game 6",
+				"standings": [6, 15, 10, 16, 14, 12, 1, 4, 5, 2],
+				"kos": [
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 10, "count": 1 },
+					{ "playerId": 16, "count": 1 },
+					{ "playerId": 15, "count": 4 },
+					{ "playerId": 6, "count": 2 }
+				]
+			},
+			{
+				"id": 7,
+				"description": "Game 7",
+				"standings": [5, 2, 16, 12, 3, 4, 6, 15],
+				"kos": [{ "playerId": 5, "count": 4 }, { "playerId": 16, "count": 3 }]
+			},
+			{
+				"id": 8,
+				"description": "Game 8",
+				"standings": [1, 12, 5, 14, 16, 2, 6],
+				"kos": [{ "playerId": 5, "count": 4 }, { "playerId": 1, "count": 2 }]
+			},
+			{
+				"id": 9,
+				"description": "Game 9",
+				"standings": [6, 3, 12, 1, 2, 16, 5],
+				"kos": [
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 3, "count": 2 },
+					{ "playerId": 6, "count": 3 }
+				]
+			},
+			{
+				"id": 10,
+				"description": "Game 10",
+				"standings": [6, 1, 16, 10, 2, 12, 4, 5],
+				"kos": [
+					{ "playerId": 4, "count": 1 },
+					{ "playerId": 10, "count": 2 },
+					{ "playerId": 16, "count": 1 },
+					{ "playerId": 6, "count": 2 },
+					{ "playerId": 1, "count": 1 }
+				]
+			},
+			{
+				"id": 11,
+				"description": "Game 11",
+				"standings": [4, 12, 2, 1, 16, 5],
+				"kos": [
+					{ "playerId": 1, "count": 2 },
+					{ "playerId": 4, "count": 2 },
+					{ "playerId": 12, "count": 1 }
+				]
+			},
+			{
+				"id": 12,
+				"description": "Game 12",
+				"standings": [2, 1, 12, 16, 6, 5],
+				"kos": [
+					{ "playerId": 12, "count": 2 },
+					{ "playerId": 2, "count": 2 },
+					{ "playerId": 1, "count": 1 }
+				]
+			}
+		]
+	},
+	{
+		"id": 6,
+		"description": "Season 6",
+		"type": 5,
+		"lastGame": 20,
+		"lastGameMultiplier": 1.5,
+		"pointsByPosition": 3,
+		"bestGames": 15,
+		"games": [
+			{
+				"id": 1,
+				"description": "Game 1",
+				"standings": [1, 15, 2, 6, 8, 4, 5, 16],
+				"kos": [{ "playerId": 4, "count": 1 }, { "playerId": 1, "count": 6 }]
+			},
+			{
+				"id": 2,
+				"description": "Game 2",
+				"standings": [14, 1, 12, 15, 8, 2, 5, 16],
+				"kos": [
+					{ "playerId": 14, "count": 3 },
+					{ "playerId": 15, "count": 3 },
+					{ "playerId": 1, "count": 1 }
+				]
+			},
+			{
+				"id": 3,
+				"description": "Game 3",
+				"standings": [2, 12, 15, 16, 1, 8, 5, 14, 6, 4],
+				"kos": [
+					{ "playerId": 5, "count": 1 },
+					{ "playerId": 12, "count": 3 },
+					{ "playerId": 8, "count": 1 },
+					{ "playerId": 16, "count": 1 },
+					{ "playerId": 2, "count": 3 }
+				]
+			},
+			{
+				"id": 4,
+				"description": "Game 4",
+				"standings": [2, 1, 15, 16, 12, 6, 10, 8, 4],
+				"kos": [
+					{ "playerId": 15, "count": 2 },
+					{ "playerId": 12, "count": 1 },
+					{ "playerId": 16, "count": 2 },
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 2, "count": 2 }
+				]
+			},
+			{
+				"id": 5,
+				"description": "Game 5",
+				"standings": [6, 12, 1, 14, 8, 5, 16, 15],
+				"kos": [
+					{ "playerId": 6, "count": 4 },
+					{ "playerId": 8, "count": 1 },
+					{ "playerId": 12, "count": 2 }
+				]
+			},
+			{
+				"id": 6,
+				"description": "Game 6",
+				"standings": [16, 14, 12, 2, 15, 8, 1],
+				"kos": [
+					{ "playerId": 2, "count": 1 },
+					{ "playerId": 14, "count": 2 },
+					{ "playerId": 16, "count": 3 }
+				]
+			},
+			{
+				"id": 7,
+				"description": "Game 7",
+				"standings": [8, 2, 6, 12, 1, 15, 16, 14],
+				"kos": [
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 12, "count": 2 },
+					{ "playerId": 6, "count": 2 },
+					{ "playerId": 8, "count": 2 }
+				]
+			},
+			{
+				"id": 8,
+				"description": "Game 8",
+				"standings": [1, 2, 14, 15, 16, 8, 6, 5, 4],
+				"kos": [
+					{ "playerId": 8, "count": 2 },
+					{ "playerId": 1, "count": 4 },
+					{ "playerId": 2, "count": 1 },
+					{ "playerId": 14, "count": 1 }
+				]
+			},
+			{
+				"id": 9,
+				"description": "Game 9",
+				"standings": [12, 1, 5, 2, 16, 14, 6, 8, 15],
+				"kos": [
+					{ "playerId": 1, "count": 3 },
+					{ "playerId": 5, "count": 3 },
+					{ "playerId": 12, "count": 2 }
+				]
+			},
+			{
+				"id": 10,
+				"description": "Game 10",
+				"standings": [8, 15, 2, 4, 12, 1, 6, 16],
+				"kos": [
+					{ "playerId": 15, "count": 2 },
+					{ "playerId": 1, "count": 1 },
+					{ "playerId": 4, "count": 1 },
+					{ "playerId": 8, "count": 3 }
+				]
+			},
+			{
+				"id": 11,
+				"description": "Game 11",
+				"standings": [8, 2, 12, 4, 15, 17, 16, 1, 6],
+				"kos": [
+					{ "playerId": 4, "count": 3 },
+					{ "playerId": 16, "count": 1 },
+					{ "playerId": 8, "count": 4 }
+				]
+			},
+			{
+				"id": 12,
+				"description": "Game 12",
+				"standings": [8, 2, 6, 12, 4, 16, 1, 5],
+				"kos": [
+					{ "playerId": 8, "count": 5 },
+					{ "playerId": 4, "count": 1 },
+					{ "playerId": 6, "count": 1 }
+				]
+			}
+		]
+	}
 ]
