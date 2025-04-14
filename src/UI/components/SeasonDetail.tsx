@@ -62,7 +62,7 @@ export function SeasonDetail(props: SeasonDetailProps) {
                       g,
                       p.id,
                       props.season
-                    )}p · ${getPlayerGameKos(g, p.id)} KO)`
+                    )}p + ${getPlayerGameKos(g, p.id)} KO)`
                   : '-'}
               </div>
             ))}
