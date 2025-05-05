@@ -657,9 +657,9 @@
       {
         "id": 15,
         "description": "Game 15",
-        "standings": [1, 8, 16, 2, 12, 15],
+        "standings": [8, 1, 16, 2, 12, 15],
         "kos": [
-          {"playerId": 2, "count": 1},
+          {"playerId": 1, "count": 2},
           {"playerId": 8, "count": 3}
         ]
       }
