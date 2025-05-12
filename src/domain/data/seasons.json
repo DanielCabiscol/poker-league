@@ -662,6 +662,15 @@
           {"playerId": 1, "count": 2},
           {"playerId": 8, "count": 3}
         ]
+      },
+      {
+        "id": 16,
+        "description": "Game 16",
+        "standings": [16, 12, 8, 2, 1],
+        "kos": [
+          {"playerId": 12, "count": 3},
+          {"playerId": 16, "count": 1}
+        ]
       }
     ]
   }
