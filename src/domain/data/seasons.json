@@ -700,6 +700,15 @@
           {"playerId": 12, "count": 3},
           {"playerId": 1, "count": 3}
         ]
+      },
+      {
+        "id": 20,
+        "description": "Game 20",
+        "standings": [1, 8, 12, 16, 2, 6],
+        "kos": [
+          {"playerId": 1, "count": 4},
+          {"playerId": 12, "count": 1}
+        ]
       }
     ]
   }
