@@ -655,5 +655,17 @@
         ]
       }
     ]
+  },
+  {
+    "id": 7,
+    "description": "Season 7",
+    "type": 5,
+    "lastGame": 20,
+    "lastGameMultiplier": 1.5,
+    "pointsByPosition": 3,
+    "bestGames": 15,
+    "games": [
+      
+    ]
   }
 ]

@@ -42,5 +42,9 @@
   {
     "id": "11",
     "description": "If a registered player does not attend the game after 30', he/she will automatically score 0 regardless of the position in which he/she is left."
+  },
+  {
+    "id": "12",
+    "description": "KO points are counted from all games played, not just the best games that count for the standings."
   }
 ]
