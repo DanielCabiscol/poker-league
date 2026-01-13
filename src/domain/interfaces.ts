@@ -3,6 +3,29 @@ export interface IEntityDescription {
   description: string;
 }
 
+export interface IRuleExample {
+  scenario: string;
+  result: string;
+}
+
+export interface IRule {
+  id: string;
+  title: string;
+  description: string;
+  category: 'general' | 'puntuacion' | 'ko' | 'conducta';
+  examples?: IRuleExample[];
+  isNew?: boolean;
+}
+
+export interface IRulesData {
+  categories: {
+    id: string;
+    name: string;
+    icon: string;
+  }[];
+  rules: IRule[];
+}
+
 export interface IPlayer {
   id: number;
   name: string;
@@ -30,7 +53,9 @@ export interface IGame {
   kos: IKO[];
 }
 
-export type TSeasonType = 1 | 2 | 3 | 4 | 5; //1 = normal, 2 = best 8 games, 3 = best 12 games, 4 = best 10, 5 = best 15
+export type TSeasonType = 1 | 2 | 3 | 4 | 5 | 6;
+// 1 = normal, 2 = best 8 games, 3 = best 12 games, 4 = best 10, 5 = best 15
+// 6 = best 15 + KO progresivo + bounty + KO King
 
 export interface ISeason {
   id: number;

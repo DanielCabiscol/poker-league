@@ -19,7 +19,7 @@ function App() {
             href="https://github.com/DanielCabiscol"
             target="_blank"
           >
-            Daniel Sánchez
+            Daniel Cabiscol
           </a>
         </div>
       </footer>

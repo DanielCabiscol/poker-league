@@ -22,26 +22,26 @@ export function StandingsBest12(props: StandingsProps) {
           POS
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm pt-4 pb-4 truncate">
-          PLAYER
+          JUGADOR
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm pt-4 pb-4 truncate">
           HANDICAP
         </div>
 
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 truncate">
-          GAMES
+          PARTIDAS
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 truncate">
-          %P/G
+          %P/J
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 truncate">
-          TOTAL KO's
+          TOTAL KOs
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 truncate">
-          15 GAMES
+          15 PARTIDAS
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 pr-4 truncate">
-          BEST 12 + HANDICAP
+          MEJOR 12 + HANDICAP
         </div>
       </div>
       <div className="flex flex-col">

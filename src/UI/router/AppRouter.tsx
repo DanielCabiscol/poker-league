@@ -13,20 +13,20 @@ export const POINTS = '/points';
 
 export const mainRoute = '/';
 export const routes = {
-  players: '/players',
-  schedule: '/schedule',
-  rules: '/rules',
-  points: '/points',
+  jugadores: '/players',
+  calendario: '/schedule',
+  reglas: '/rules',
+  puntos: '/points',
 };
 
 export const AppRouter = () => {
   return (
     <Routes>
       <Route path={mainRoute} element={<HomePage />} />
-      <Route path={routes.players} element={<Players />} />
-      <Route path={routes.rules} element={<Rules />} />
-      <Route path={routes.schedule} element={<Schedule />} />
-      <Route path={routes.points} element={<PointSystem />} />
+      <Route path={routes.jugadores} element={<Players />} />
+      <Route path={routes.reglas} element={<Rules />} />
+      <Route path={routes.calendario} element={<Schedule />} />
+      <Route path={routes.puntos} element={<PointSystem />} />
       {/* <Route path="*" element={<PageNotFound />} /> */}
       {/* <Route path={ERROR} element={<ErrorPage />} /> */}
     </Routes>

@@ -26,11 +26,11 @@ export function SeasonHighlights(props: SeasonHighlightsProps) {
       <div className="flex flex-col w-full sm:flex-row items-center gap-4">
         <div className="flex flex-col w-full p-4 text-white bg-slate-800 rounded-md sm:min-w">
           <div className="flex flex-row justify-between sm:gap-12">
-            <div className="text-3xl font-medium">1st</div>
-            <img src={goldMedal} className="w-12" alt="gold-medal" />
+            <div className="text-3xl font-medium">1º</div>
+            <img src={goldMedal} className="w-12" alt="medalla-oro" />
           </div>
           <div className="text-md font-bold text-amber-500 mb-2">
-            {getPlayerSeasonPoints(props.season, bestSeasonPlayers[0].id)} points
+            {getPlayerSeasonPoints(props.season, bestSeasonPlayers[0].id)} puntos
           </div>
           <div className="text-sm">
             {bestSeasonPlayers[0].name} {bestSeasonPlayers[0].surname}
@@ -38,11 +38,11 @@ export function SeasonHighlights(props: SeasonHighlightsProps) {
         </div>
         <div className="flex flex-col w-full p-4 text-white bg-slate-800 rounded-md">
           <div className="flex flex-row justify-between sm:gap-12">
-            <div className="text-3xl font-medium">2nd</div>
-            <img src={silverMedal} className="w-12" alt="silver-medal" />
+            <div className="text-3xl font-medium">2º</div>
+            <img src={silverMedal} className="w-12" alt="medalla-plata" />
           </div>
           <div className="text-md font-bold text-amber-500 mb-2">
-            {getPlayerSeasonPoints(props.season, bestSeasonPlayers[1].id)} points
+            {getPlayerSeasonPoints(props.season, bestSeasonPlayers[1].id)} puntos
           </div>
           <div className="text-sm">
             {bestSeasonPlayers[1].name} {bestSeasonPlayers[1].surname}
@@ -50,11 +50,11 @@ export function SeasonHighlights(props: SeasonHighlightsProps) {
         </div>
         <div className="flex flex-col w-full p-4 text-white bg-slate-800 rounded-md">
           <div className="flex flex-row justify-between sm:gap-12">
-            <div className="text-3xl font-medium">3rd</div>
-            <img src={bronzeMedal} className="w-12" alt="bronze-medal" />
+            <div className="text-3xl font-medium">3º</div>
+            <img src={bronzeMedal} className="w-12" alt="medalla-bronce" />
           </div>
           <div className="text-md font-bold text-amber-500 mb-2">
-            {getPlayerSeasonPoints(props.season, bestSeasonPlayers[2].id)} points
+            {getPlayerSeasonPoints(props.season, bestSeasonPlayers[2].id)} puntos
           </div>
           <div className="text-sm">
             {bestSeasonPlayers[2].name} {bestSeasonPlayers[2].surname}
@@ -63,15 +63,15 @@ export function SeasonHighlights(props: SeasonHighlightsProps) {
       </div>
       <div className="flex flex-col p-4 text-white bg-slate-800 rounded-md">
         <div className="flex flex-row justify-between sm:gap-12">
-          <div className="text-3xl font-medium">Best % P/G</div>
-          <img src={goldMedal} className="w-12" alt="gold-medal" />
+          <div className="text-3xl font-medium">Mejor % P/J</div>
+          <img src={goldMedal} className="w-12" alt="medalla-oro" />
         </div>
         <div className="text-md font-bold text-amber-500 mb-2">
           {getPlayerSeasonPointsPerGamePercentage(
             props.season,
             bestSeasonPointsPerGamePercentagePlayer.id
           )}{' '}
-          %
+          puntos/partida
         </div>
         <div className="text-sm">
           {bestSeasonPointsPerGamePercentagePlayer.name}{' '}
