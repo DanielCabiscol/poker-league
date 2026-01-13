@@ -37,7 +37,8 @@
     "surname": "González",
     "nickname": "rogeruxland",
     "lastSeasonPosition": 8,
-    "active": false
+    "active": false,
+    "deactivatedFromSeason": 6
   },
   {
     "id": 6,
@@ -79,7 +80,8 @@
     "surname": "Guasch",
     "nickname": "dguaschm",
     "lastSeasonPosition": 10,
-    "active": false
+    "active": false,
+    "deactivatedFromSeason": 6
   },
   {
     "id": 11,
