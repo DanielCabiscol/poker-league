@@ -1,50 +1,58 @@
 [
   {
     "id": "01",
-    "description": "The games will be played every 7 days on the PokerStars platform."
+    "description": "Las partidas se juegan cada 7 dias en la plataforma PokerStars."
   },
   {
     "id": "02",
-    "description": "The inscription in each day will be 20,000 fictitious chips. Remember to have available balance."
+    "description": "La inscripcion en cada jornada es de 20.000 fichas ficticias. Recuerda tener saldo disponible."
   },
   {
     "id": "03",
-    "description": "Each game will start with 10,000 chips and the speed will be turbo without breaks."
+    "description": "Cada partida comienza con 10.000 fichas y la velocidad sera turbo sin descansos."
   },
   {
     "id": "04",
-    "description": "There will be a late registration of 4 levels (20 min) in case someone gets confused."
+    "description": "Hay registro tardio de 4 niveles (20 min) por si alguien se confunde de hora."
   },
   {
     "id": "05",
-    "description": "At the end of the 20 games, the first 3 places will be awarded."
+    "description": "Al final de las 20 partidas, se premiaran los 3 primeros puestos."
   },
   {
     "id": "06",
-    "description": "The total points are based in best 15 of 20 games."
+    "description": "Los puntos totales se basan en las mejores 15 de 20 partidas."
   },
   {
     "id": "07",
-    "description": "No Handicap is applied in this season"
+    "description": "No se aplica Handicap en esta temporada."
   },
   {
     "id": "08",
-    "description": "Each player gains 1 extra point for each KO did on the game."
+    "description": "Los puntos por KO son progresivos: 1er KO = 1pt, 2do KO = 2pts, 3er KO = 3pts, etc. (Formula: n KOs = n*(n+1)/2 puntos)"
   },
   {
     "id": "09",
-    "description": "The last game, points x1,5, included KO's"
+    "description": "Bonus por supervivencia: si terminas 1ro tus puntos de KO se multiplican x1.5, si terminas 2do x1.25."
   },
   {
     "id": "10",
-    "description": "It is totally forbidden to insult or make obscene comments in the game chat."
+    "description": "Los puntos de KO cuentan de TODAS las partidas, no solo de las mejores 15."
   },
   {
     "id": "11",
-    "description": "If a registered player does not attend the game after 30', he/she will automatically score 0 regardless of the position in which he/she is left."
+    "description": "Premio KO King al final de la temporada: +15 puntos al jugador con mas KOs totales, +10 al 2do, +5 al 3ro."
   },
   {
     "id": "12",
-    "description": "KO points are counted from all games played, not just the best games that count for the standings."
+    "description": "La ultima partida tiene multiplicador x1.5 en puntos por posicion."
+  },
+  {
+    "id": "13",
+    "description": "Esta totalmente prohibido insultar o hacer comentarios obscenos en el chat."
+  },
+  {
+    "id": "14",
+    "description": "Si un jugador inscrito no se presenta despues de 30 minutos, puntuara 0 automaticamente."
   }
 ]

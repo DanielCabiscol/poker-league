@@ -21,13 +21,13 @@ export function Standings(props: StandingsProps) {
           POS
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm pt-4 pb-4 truncate">
-          PLAYER
+          JUGADOR
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 truncate">
-          %P/G
+          %P/J
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 truncate">
-          GAMES
+          PARTIDAS
         </div>
         <div className="font-bold uppercase text-white text-xs sm:text-sm text-right pt-4 pb-4 pr-4 truncate">
           TOTAL

@@ -1,0 +1,157 @@
+{
+  "categories": [
+    {"id": "general", "name": "General", "icon": "info"},
+    {"id": "puntuacion", "name": "Puntuacion", "icon": "calculator"},
+    {"id": "ko", "name": "Sistema de KO", "icon": "target"},
+    {"id": "conducta", "name": "Conducta", "icon": "warning"}
+  ],
+  "rules": [
+    {
+      "id": "01",
+      "title": "Calendario de partidas",
+      "description": "Las partidas se juegan cada 7 dias en la plataforma PokerStars.",
+      "category": "general"
+    },
+    {
+      "id": "02",
+      "title": "Inscripcion",
+      "description": "La inscripcion en cada jornada es de 20.000 fichas ficticias. Recuerda tener saldo disponible antes del inicio.",
+      "category": "general"
+    },
+    {
+      "id": "03",
+      "title": "Configuracion de partida",
+      "description": "Cada partida comienza con 10.000 fichas y la velocidad sera turbo sin descansos.",
+      "category": "general"
+    },
+    {
+      "id": "04",
+      "title": "Registro tardio",
+      "description": "Hay registro tardio de 4 niveles (20 minutos) por si alguien se confunde de hora o tiene problemas tecnicos.",
+      "category": "general"
+    },
+    {
+      "id": "05",
+      "title": "Premios",
+      "description": "Al final de las 20 partidas, se premiaran los 3 primeros puestos de la clasificacion general.",
+      "category": "general"
+    },
+    {
+      "id": "06",
+      "title": "Mejores partidas",
+      "description": "Los puntos totales se basan en las mejores 15 de 20 partidas. Esto permite que un jugador pueda tener hasta 5 malas partidas sin que afecten su puntuacion final.",
+      "category": "puntuacion",
+      "examples": [
+        {
+          "scenario": "Un jugador tiene 20 partidas con puntos: 25, 22, 20, 18, 16, 15, 14, 12, 10, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 0",
+          "result": "Solo contarian las 15 mejores: 25+22+20+18+16+15+14+12+10+8+7+6+5+4+3 = 185 puntos"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Handicap",
+      "description": "No se aplica Handicap en esta temporada. Todos los jugadores empiezan desde cero.",
+      "category": "puntuacion"
+    },
+    {
+      "id": "08",
+      "title": "KO Progresivo",
+      "description": "Los puntos por KO son progresivos dentro de cada partida. El primer KO vale 1 punto, el segundo 2 puntos, el tercero 3 puntos, y asi sucesivamente. Formula: n KOs = n*(n+1)/2 puntos.",
+      "category": "ko",
+      "isNew": true,
+      "examples": [
+        {
+          "scenario": "1 KO en una partida",
+          "result": "1 punto (1)"
+        },
+        {
+          "scenario": "2 KOs en una partida",
+          "result": "3 puntos (1+2)"
+        },
+        {
+          "scenario": "3 KOs en una partida",
+          "result": "6 puntos (1+2+3)"
+        },
+        {
+          "scenario": "4 KOs en una partida",
+          "result": "10 puntos (1+2+3+4)"
+        },
+        {
+          "scenario": "5 KOs en una partida",
+          "result": "15 puntos (1+2+3+4+5)"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Bonus por Supervivencia (Bounty)",
+      "description": "Los puntos de KO se multiplican segun tu posicion final en la partida. Si terminas 1ro, tus puntos de KO se multiplican x1.5. Si terminas 2do, se multiplican x1.25. Del 3er puesto en adelante no hay multiplicador.",
+      "category": "ko",
+      "isNew": true,
+      "examples": [
+        {
+          "scenario": "Ganas la partida (1ro) con 3 KOs",
+          "result": "6 puntos progresivos x 1.5 = 9 puntos de KO"
+        },
+        {
+          "scenario": "Quedas 2do con 2 KOs",
+          "result": "3 puntos progresivos x 1.25 = 3.75 -> 4 puntos de KO"
+        },
+        {
+          "scenario": "Quedas 5to con 4 KOs",
+          "result": "10 puntos progresivos x 1.0 = 10 puntos de KO"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "KOs de todas las partidas",
+      "description": "Los puntos de KO cuentan de TODAS las 20 partidas de la temporada, no solo de las mejores 15 que cuentan para la puntuacion por posicion.",
+      "category": "ko",
+      "examples": [
+        {
+          "scenario": "Un jugador participa en 20 partidas, sus mejores 15 suman 150 puntos, y tiene 30 puntos de KO totales",
+          "result": "Total: 150 + 30 = 180 puntos"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Premio KO King",
+      "description": "Al final de la temporada se otorga un bonus a los 3 jugadores con mas KOs totales (conteo simple, no puntos). El 1ro recibe +15 puntos, el 2do +10 puntos, y el 3ro +5 puntos.",
+      "category": "ko",
+      "isNew": true,
+      "examples": [
+        {
+          "scenario": "Jugador A tiene 45 KOs (1ro), Jugador B tiene 38 KOs (2do), Jugador C tiene 32 KOs (3ro)",
+          "result": "A recibe +15 pts, B recibe +10 pts, C recibe +5 pts"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Ultima partida",
+      "description": "La ultima partida (jornada 20) tiene un multiplicador x1.5 en los puntos por posicion. Los puntos de KO de esa partida NO se multiplican.",
+      "category": "puntuacion",
+      "examples": [
+        {
+          "scenario": "Un jugador queda 1ro en la ultima partida (normalmente 30 puntos) y hace 3 KOs",
+          "result": "Posicion: 30 x 1.5 = 45 puntos + KOs calculados normal"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Conducta en el chat",
+      "description": "Esta totalmente prohibido insultar o hacer comentarios obscenos en el chat del juego. Las infracciones pueden resultar en penalizaciones.",
+      "category": "conducta"
+    },
+    {
+      "id": "14",
+      "title": "No presentarse",
+      "description": "Si un jugador inscrito no se presenta despues de 30 minutos del inicio, puntuara 0 automaticamente independientemente de la posicion en la que quede su stack.",
+      "category": "conducta"
+    }
+  ]
+}

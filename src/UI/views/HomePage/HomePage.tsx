@@ -8,11 +8,12 @@ import {Standings} from '../../components/Standings';
 import {StandingsBest10} from '../../components/StandingsBest10';
 import {StandingsBest12} from '../../components/StandingsBest12';
 import {StandingsBest15} from '../../components/StandingsBest15';
+import {StandingsBest15V2} from '../../components/StandingsBest15V2';
 import {StandingsBest8} from '../../components/StandingsBest8';
 import './homePage.css';
 
 export function HomePage() {
-  const [seasonSelected, setSeasonSelected] = useState(6);
+  const [seasonSelected, setSeasonSelected] = useState(7);
   const seasons = useSeasonsStore.getState().seasons;
   return (
     <div className="HomePage">
@@ -46,7 +47,7 @@ export function HomePage() {
           {isSeasonFinalized(season) ? (
             <SeasonHighlights season={season} />
           ) : (
-            <div className="flex p-2 w-full">Highlights will appear when season ends</div>
+            <div className="flex p-2 w-full text-slate-500">Los destacados apareceran cuando termine la temporada</div>
           )}
 
           {season.type === 1 ? (
@@ -57,6 +58,8 @@ export function HomePage() {
             <StandingsBest10 season={season} />
           ) : season.type === 5 ? (
             <StandingsBest15 season={season} />
+          ) : season.type === 6 ? (
+            <StandingsBest15V2 season={season} />
           ) : (
             <StandingsBest12 season={season} />
           )}
