@@ -3,6 +3,7 @@ import {
   getPlayerSeasonBestGamesPointsV2,
   getPlayerSeasonGamesCount,
   getPlayerSeasonKOPointsV2,
+  getPlayerSeasonPointsPerGamePercentage,
   getPlayerTotalSeasonKos,
   getKOKingBonus,
   getSeasonKORanking,
@@ -140,18 +141,15 @@ export function StandingsBest15V2(props: StandingsProps) {
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
         {/* Header */}
         <div className="bg-slate-800 text-white">
-          <div className="grid grid-cols-12 gap-2 p-4 text-xs font-bold uppercase">
-            <div className="col-span-1">Pos</div>
-            <div className="col-span-3">Jugador</div>
-            <div className="col-span-1 text-center">J</div>
-            <div className="col-span-2 text-center">KOs</div>
-            <div className="col-span-2 text-center" title="Puntos de KO (progresivo + bounty)">
-              KO Pts
-            </div>
-            <div className="col-span-1 text-center" title="Puntos por posicion (mejores 15)">
-              Pos
-            </div>
-            <div className="col-span-2 text-right font-bold">Total</div>
+          <div className="grid grid-cols-[40px_1fr_50px_50px_60px_70px_70px_70px] gap-1 px-3 py-2 text-xs font-bold uppercase">
+            <div>#</div>
+            <div>Jugador</div>
+            <div className="text-center">Part.</div>
+            <div className="text-center">%P/J</div>
+            <div className="text-center">KOs</div>
+            <div className="text-center">Pts KO</div>
+            <div className="text-center">Pts Pos</div>
+            <div className="text-right">Mejor {props.season.bestGames}</div>
           </div>
         </div>
 
@@ -170,51 +168,57 @@ export function StandingsBest15V2(props: StandingsProps) {
               player.id,
               sortedPlayers
             );
+            const ppg = getPlayerSeasonPointsPerGamePercentage(props.season, player.id);
 
             return (
               <div
                 key={player.id}
-                className={`grid grid-cols-12 gap-2 p-4 items-center border-l-4 hover:bg-slate-50 transition-colors ${getPositionStyle(
+                className={`grid grid-cols-[40px_1fr_50px_50px_60px_70px_70px_70px] gap-1 px-3 py-1.5 items-center border-l-4 hover:bg-slate-50 transition-colors ${getPositionStyle(
                   index
                 )}`}
               >
                 {/* Position */}
-                <div className="col-span-1">
-                  <span className="font-bold text-lg text-slate-700">{index + 1}</span>
+                <div>
+                  <span className="font-bold text-sm text-slate-700">{index + 1}</span>
                 </div>
 
                 {/* Player */}
-                <div className="col-span-3 flex items-center gap-2">
-                  <span className="font-bold text-slate-800 truncate">{player.nickname}</span>
+                <div className="flex items-center gap-1 min-w-0">
+                  <span className="font-bold text-sm text-slate-800 truncate">{player.nickname}</span>
                   {koRank >= 0 && koRank < 3 && <KOKingBadge rank={koRank} />}
                 </div>
 
                 {/* Games */}
-                <div className="col-span-1 text-center text-slate-600">
+                <div className="text-center text-sm text-slate-600">
                   {getPlayerSeasonGamesCount(props.season, player.id)}
                 </div>
 
+                {/* %P/J */}
+                <div className="text-center text-sm text-slate-500">
+                  {ppg}
+                </div>
+
                 {/* KOs count */}
-                <div className="col-span-2 text-center">
-                  <span className="inline-flex items-center gap-1 px-2 py-1 bg-red-50 text-red-700 rounded-full text-sm font-medium">
+                <div className="text-center">
+                  <span className="inline-flex items-center gap-0.5 text-sm text-red-600 font-medium">
                     🎯 {totalKOs}
                   </span>
                 </div>
 
                 {/* KO Points */}
-                <div className="col-span-2 text-center">
+                <div className="text-center text-sm">
                   <span className="font-bold text-emerald-600">{koPoints}</span>
                   {koKingBonus > 0 && (
-                    <span className="ml-1 text-amber-500 font-bold">+{koKingBonus}</span>
+                    <span className="ml-0.5 text-amber-500 font-bold text-xs">+{koKingBonus}</span>
                   )}
                 </div>
 
                 {/* Position points */}
-                <div className="col-span-1 text-center text-slate-600">{bestGamesPoints}</div>
+                <div className="text-center text-sm text-slate-600">{bestGamesPoints}</div>
 
                 {/* Total */}
-                <div className="col-span-2 text-right">
-                  <span className="text-xl font-bold text-indigo-700">{totalPoints}</span>
+                <div className="text-right">
+                  <span className="text-base font-bold text-indigo-700">{totalPoints}</span>
                 </div>
               </div>
             );
@@ -222,20 +226,13 @@ export function StandingsBest15V2(props: StandingsProps) {
         </div>
 
         {/* Legend */}
-        <div className="bg-slate-50 p-4 text-xs text-slate-500 flex flex-wrap gap-4">
-          <span>
-            <strong>J</strong> = Partidas jugadas
-          </span>
-          <span>
-            <strong>KOs</strong> = Eliminaciones totales
-          </span>
-          <span>
-            <strong>KO Pts</strong> = Puntos de KO (progresivo x bounty)
-          </span>
-          <span>
-            <strong>Pos</strong> = Puntos por posicion (mejores {props.season.bestGames})
-          </span>
-          <span>👑🥈🥉 = Bonus KO King</span>
+        <div className="bg-slate-50 px-3 py-2 text-xs text-slate-500 flex flex-wrap gap-3">
+          <span><strong>Part.</strong> = Partidas jugadas</span>
+          <span><strong>%P/J</strong> = Media puntos/partida</span>
+          <span><strong>Pts KO</strong> = KO progresivo x bounty (todas)</span>
+          <span><strong>Pts Pos</strong> = Puntos posicion (mejor {props.season.bestGames})</span>
+          <span><strong>Mejor {props.season.bestGames}</strong> = Pts Pos + Pts KO + Bonus</span>
+          <span>👑🥈🥉 = Bonus KO King (+15/+10/+5)</span>
         </div>
       </div>
     </div>
