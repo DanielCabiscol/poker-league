@@ -721,7 +721,15 @@
     "pointsByPosition": 3,
     "bestGames": 15,
     "games": [
-      
+      {
+        "id": 1,
+        "description": "Game 1",
+        "standings": [1,2 16, 8, 12,15,6],
+        "kos": [
+          {"playerId": 1, "count": 6},
+        ]
+      }
+
     ]
   }
 ]
