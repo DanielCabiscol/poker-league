@@ -19,5 +19,5 @@ jobs:
       - name: Test and build
         run: |
           yarn install
-          yarn test-unit
+          yarn test
           yarn build
