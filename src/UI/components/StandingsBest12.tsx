@@ -53,7 +53,10 @@ export function StandingsBest12(props: StandingsProps) {
             <div className="font-bold text-sm border-l-4 border-l-amber-500 p-2 pl-4">
               {index + 1}
             </div>
-            <div className="text-xs font-bold truncate">{player.nickname}</div>
+            <div className="text-xs font-bold truncate">
+              {player.nickname}
+              <span className="hidden sm:inline text-slate-500 font-normal"> ({player.name} {player.surname})</span>
+            </div>
             <div className="text-xs font-bold truncate">
               <div
                 dangerouslySetInnerHTML={{

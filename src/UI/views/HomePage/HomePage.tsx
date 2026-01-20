@@ -21,7 +21,23 @@ export function HomePage() {
         <h2 className="font-bold text-md text-amber-500">POKER LEAGUE</h2>
         <h1 className="font-bold text-4xl text-white italic">UXLAND</h1>
       </section>
-      <div className="flex flex-row gap-6 p-8 pb-4">
+      {/* Mobile: Dropdown selector */}
+      <div className="sm:hidden p-4">
+        <select
+          value={seasonSelected}
+          onChange={e => setSeasonSelected(Number(e.target.value))}
+          className="w-full p-3 text-lg font-bold text-indigo-900 bg-white border-2 border-indigo-200 rounded-lg shadow-sm focus:border-indigo-500 focus:outline-none"
+        >
+          {seasons.map((s: ISeason) => (
+            <option key={s.id} value={s.id}>
+              {s.description}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {/* Desktop: Tab selector */}
+      <div className="hidden sm:flex flex-row gap-6 p-8 pb-4">
         {seasons.map((s: ISeason) => (
           <div
             key={s.id}

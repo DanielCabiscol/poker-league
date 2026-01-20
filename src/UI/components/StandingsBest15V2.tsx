@@ -184,7 +184,10 @@ export function StandingsBest15V2(props: StandingsProps) {
 
                 {/* Player */}
                 <div className="flex items-center gap-1 min-w-0">
-                  <span className="font-bold text-sm text-slate-800 truncate">{player.nickname}</span>
+                  <span className="font-bold text-sm text-slate-800 truncate">
+                    {player.nickname}
+                    <span className="hidden sm:inline text-slate-500 font-normal"> ({player.name} {player.surname})</span>
+                  </span>
                   {koRank >= 0 && koRank < 3 && <KOKingBadge rank={koRank} />}
                 </div>
 
