@@ -139,5 +139,21 @@
     "nickname": "X140l1n",
     "lastSeasonPosition": null,
     "active": true
+  },
+  {
+    "id": 18,
+    "name": "Rustician",
+    "surname": "Rustician",
+    "nickname": "Rustician",
+    "lastSeasonPosition": null,
+    "active": true
+  },
+  {
+    "id": 19,
+    "name": "Angel",
+    "surname": "Camuña",
+    "nickname": "angeluxee",
+    "lastSeasonPosition": null,
+    "active": true
   }
 ]
