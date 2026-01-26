@@ -728,6 +728,15 @@
         "kos": [
           {"playerId": 1, "count": 6}
         ]
+      },
+      {
+        "id": 2,
+        "description": "Game 2",
+        "standings": [8,6,12,7, 1, 15, 19],
+        "kos": [
+          {"playerId": 6, "count": 3},
+          {"playerId": 8, "count": 3}
+        ]
       }
 
     ]
