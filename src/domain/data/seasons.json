@@ -767,6 +767,15 @@
           {"playerId":6, "count": 1}
 
         ]
+      },
+      {
+        "id": 6,
+        "description": "Game 6",
+        "standings": [6, 16, 2, 8, 1],
+        "kos": [
+          {"playerId": 6, "count": 2},
+          {"playerId": 16, "count": 2}
+        ]
       }
 
     ]
